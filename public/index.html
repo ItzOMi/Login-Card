@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Card</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-gray-700 font-f1">
+    <section class="flex justify-center items-center w-full min-h-screen ">
+        <div class="form-box bg-transparent 
+        border-2 rounded-md p-10 flex justify-center h-96  items-center relative">
+            <!-- content wraper-->
+            <div >
+                <!-- values -->
+                <form action="">
+                    <h2 class="text-white text-2xl text-center">Login</h2>
+                    <div class="border-b-2 border-white relative mt-5 w-[350px] inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input class="" type="password" required>
+                        <label class="absolute"for="">Email</label>
+                    </div>
+                    <div class="border-b-2 border-white relative mt-5 w-[350px] inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input class="" type="password" required>
+                        <label class="absolute"for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <input type="checkbox"><label for="">Remember me</label>
+                        <a class="hover:text-white" href="#">Forget Password</a>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class=" px-16 py-2 rounded-full hover:bg-gray-500 bg-white hover:text-white cursor-pointer font-semibold">Login</button>
+                    </div>
+                    
+                    <div class="text-center mt-3">
+                        <span>Don't have account ? <a class="font-semibold text-white hover:text-gray-700 hover:underline" href="#">SignUp</a></span>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
